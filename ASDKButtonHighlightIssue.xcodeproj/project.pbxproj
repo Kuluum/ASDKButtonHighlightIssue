@@ -7,25 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E4C249F2BC62F0C5A34681E /* Pods_ASDKButtonHighlightIssue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C3B9D6AE1EF5F7F10218864 /* Pods_ASDKButtonHighlightIssue.framework */; };
 		594656171E6C491800E2BF1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 594656161E6C491800E2BF1A /* main.m */; };
 		5946561A1E6C491800E2BF1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 594656191E6C491800E2BF1A /* AppDelegate.m */; };
 		5946561D1E6C491800E2BF1A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5946561C1E6C491800E2BF1A /* ViewController.m */; };
-		594656201E6C491800E2BF1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5946561E1E6C491800E2BF1A /* Main.storyboard */; };
 		594656221E6C491800E2BF1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 594656211E6C491800E2BF1A /* Assets.xcassets */; };
 		594656251E6C491800E2BF1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 594656231E6C491800E2BF1A /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C3B9D6AE1EF5F7F10218864 /* Pods_ASDKButtonHighlightIssue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASDKButtonHighlightIssue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29BA7162B79B8E4223E575AA /* Pods-ASDKButtonHighlightIssue.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASDKButtonHighlightIssue.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASDKButtonHighlightIssue/Pods-ASDKButtonHighlightIssue.release.xcconfig"; sourceTree = "<group>"; };
 		594656121E6C491800E2BF1A /* ASDKButtonHighlightIssue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASDKButtonHighlightIssue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		594656161E6C491800E2BF1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		594656181E6C491800E2BF1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		594656191E6C491800E2BF1A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5946561B1E6C491800E2BF1A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5946561C1E6C491800E2BF1A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		5946561F1E6C491800E2BF1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		594656211E6C491800E2BF1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		594656241E6C491800E2BF1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		594656261E6C491800E2BF1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B69FDF01A5D61A0683A258AB /* Pods-ASDKButtonHighlightIssue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASDKButtonHighlightIssue.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASDKButtonHighlightIssue/Pods-ASDKButtonHighlightIssue.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E4C249F2BC62F0C5A34681E /* Pods_ASDKButtonHighlightIssue.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +47,8 @@
 			children = (
 				594656141E6C491800E2BF1A /* ASDKButtonHighlightIssue */,
 				594656131E6C491800E2BF1A /* Products */,
+				71025F6EAA03F527F73CDD83 /* Pods */,
+				F2BFA079595836C0CE383051 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,7 +67,6 @@
 				594656191E6C491800E2BF1A /* AppDelegate.m */,
 				5946561B1E6C491800E2BF1A /* ViewController.h */,
 				5946561C1E6C491800E2BF1A /* ViewController.m */,
-				5946561E1E6C491800E2BF1A /* Main.storyboard */,
 				594656211E6C491800E2BF1A /* Assets.xcassets */,
 				594656231E6C491800E2BF1A /* LaunchScreen.storyboard */,
 				594656261E6C491800E2BF1A /* Info.plist */,
@@ -79,6 +83,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		71025F6EAA03F527F73CDD83 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B69FDF01A5D61A0683A258AB /* Pods-ASDKButtonHighlightIssue.debug.xcconfig */,
+				29BA7162B79B8E4223E575AA /* Pods-ASDKButtonHighlightIssue.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F2BFA079595836C0CE383051 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C3B9D6AE1EF5F7F10218864 /* Pods_ASDKButtonHighlightIssue.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 594656291E6C491800E2BF1A /* Build configuration list for PBXNativeTarget "ASDKButtonHighlightIssue" */;
 			buildPhases = (
+				B2B69EC231B1A5398E9BEBC4 /* [CP] Check Pods Manifest.lock */,
 				5946560E1E6C491800E2BF1A /* Sources */,
 				5946560F1E6C491800E2BF1A /* Frameworks */,
 				594656101E6C491800E2BF1A /* Resources */,
+				C4065B1988894F0B5ED73231 /* [CP] Embed Pods Frameworks */,
+				7D0D8E6444E1E147F381ECC3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -139,11 +163,58 @@
 			files = (
 				594656251E6C491800E2BF1A /* LaunchScreen.storyboard in Resources */,
 				594656221E6C491800E2BF1A /* Assets.xcassets in Resources */,
-				594656201E6C491800E2BF1A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7D0D8E6444E1E147F381ECC3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASDKButtonHighlightIssue/Pods-ASDKButtonHighlightIssue-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2B69EC231B1A5398E9BEBC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C4065B1988894F0B5ED73231 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASDKButtonHighlightIssue/Pods-ASDKButtonHighlightIssue-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5946560E1E6C491800E2BF1A /* Sources */ = {
@@ -159,14 +230,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5946561E1E6C491800E2BF1A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5946561F1E6C491800E2BF1A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		594656231E6C491800E2BF1A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -270,6 +333,7 @@
 		};
 		5946562A1E6C491800E2BF1A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B69FDF01A5D61A0683A258AB /* Pods-ASDKButtonHighlightIssue.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ASDKButtonHighlightIssue/Info.plist;
@@ -281,6 +345,7 @@
 		};
 		5946562B1E6C491800E2BF1A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29BA7162B79B8E4223E575AA /* Pods-ASDKButtonHighlightIssue.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ASDKButtonHighlightIssue/Info.plist;
@@ -309,6 +374,7 @@
 				5946562B1E6C491800E2BF1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
